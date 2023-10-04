@@ -1,11 +1,11 @@
-1. https://github.com/James-Laidlaw/lab3
-2. "The install worked sucsessfully, congratulations", django logo, rocket ship animation, enstruction text, enstruction
+c1. https://github.com/James-Laidlaw/lab3
+2. "The install worked sucsessfully, congratulations", django logo, rocket ship animation, instruction text, etc
 3. 404 not found page for /, and a hello world message on /polls
-4. A django migration is a way of prewriting changes and storing a recond of past changes to the database schema
+4. A django migration is a way of prewriting changes and storing a record of past changes to the database schema
 5. I was shown the option to add /edit groups, users, choices, and questions, along with misc administrations tasks (view logs, change password, etc). I was able to make custom models appear by creating them, then registering them to admin.site in the admin script
 6.I see the text "You're looking at question 38". for the results subdirectory i get "You're looking at the results of question 38." and for the vote subdirectory i get "You're voting on question 38."
  If i use a string instead of a number, i get a 404 not found error.
 you can allow arbitrary alphabetic characters by replacing int:question_id with str:question_id
 7. Because it makes refactoring difficult; If all the URLS were hardcoded and I wanted to change how it works, i'd have to find and change each hardcoded url
-8. It allows you to achieve the same or better results in some scenarios with far less work and repitition. you should not use them if there is some custom functionality you want to achieve that the generic does not support, such as voting.
+8. It allows you to achieve the same or better results in some scenarios with far less work and repetition. you should not use them if there is some custom functionality you want to achieve that the generic does not support, such as voting.
 
